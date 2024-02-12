@@ -1,0 +1,22 @@
+.container {
+    background-color: #fff;
+    margin: 60px auto 40px auto;
+    padding: 40px;
+    box-shadow: 1px 1px 4px #eee;
+    border-radius: 5px;
+    border: 2px solid #eee;
+    transform-origin: 0 0;
+    animation: swing-in .15s;
+    width: 360px;
+    max-width: 1366px;
+    
+}
+
+.container > * {
+    margin-bottom: 2rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
